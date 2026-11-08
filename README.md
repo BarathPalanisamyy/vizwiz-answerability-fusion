@@ -212,5 +212,3 @@ The results showed that combining image and text features improved performance c
 CLIP early fusion achieved the best overall results among the seven models.
 
 The project also highlighted the importance of evaluating classification errors, generalization, and reliability when developing accessibility applications.
-
-This project was completed as part of Multimodal Analysis Assignment 2.2 at Adelaide University.
