@@ -2,8 +2,6 @@
 
 ## Project Overview
 
-This project was completed for Multimodal Analysis Assignment 2.2 at Adelaide University.
-
 The main aim of this project is to investigate whether combining image and text features can improve the detection of unanswerable questions in Visual Question Answering (VQA) systems.
 
 Some images may be blurry, poorly framed, or may not contain enough information to answer a question. This is particularly important for accessibility applications, where visually impaired users may depend on these systems.
