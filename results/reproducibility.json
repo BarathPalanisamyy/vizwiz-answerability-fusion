@@ -1,0 +1,35 @@
+{
+  "project": "MMA Assignment 2.2 - independent implementation",
+  "dataset": "VizWiz-VQA",
+  "label": "1 = unanswerable; 0 = answerable",
+  "fingerprint": "7af67fb36c4d4fec",
+  "fast_check": false,
+  "split_sizes": {
+    "train": 20523,
+    "val": 4319,
+    "test": 8000
+  },
+  "test_labels_verified": true,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "models": [
+    "question_only",
+    "image_only",
+    "early",
+    "cross_attention",
+    "gated",
+    "clip_early",
+    "late"
+  ],
+  "device": "cuda",
+  "torch_version": "2.11.0+cu130",
+  "transformers_version": "4.57.6",
+  "training_settings": {
+    "epochs": 15,
+    "batch_size": 256,
+    "learning_rate": 0.001
+  }
+}
